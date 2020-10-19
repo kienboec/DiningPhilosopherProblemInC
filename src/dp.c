@@ -88,7 +88,7 @@ int main()
    }
    else
    {
-      printf("process created for 100ms separation (pid: %d)\n", pid);
+      printf("process created for 100micro-sec separation (pid: %d)\n", pid);
    }
 
    // https://linux.die.net/man/3/uuid_generate_random
