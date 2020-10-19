@@ -104,7 +104,7 @@ int main()
    char testSessionId[37]; // 36 + \0
    // https://linux.die.net/man/3/uuid_unparse
    uuid_unparse_lower(binuuid, testSessionId);
-   printf("Start Test-SessionId: %s", testSessionId);
+   printf("Start Test-SessionId: %s\n", testSessionId);
 
    // init
    for (i = 0; i < NUMBER_OF_PHILOSOPHERS; i++)
